@@ -3,8 +3,8 @@ class Room {
         this.name = name;
         this.length = length;
         this.width = width;
-        this.available = true;
-        this.capacity = 15;
+        this.available = available;
+       
     }
     getArea() {
         return this.length * this.width;
